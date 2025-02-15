@@ -1,0 +1,14 @@
+{
+  "scripts": {
+  "watch": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "name": "mini-project-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "TSENGNGUON <sengn5112@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "tailwindcss": "^4.0.6"
+  }
+}
