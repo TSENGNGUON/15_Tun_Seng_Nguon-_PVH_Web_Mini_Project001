@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Finsweet</title>
+    <link rel="stylesheet" href="../css/output.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 h-[67px]">
+    <div class="max-w-screen-xl  py-[8px] flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center H-[26.33px]  space-x-3 rtl:space-x-reverse">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{Finsweet</span>
+    </a>
+    <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+          <span class="sr-only">Open user menu</span>
+          
+        </button>
+        <!-- Dropdown menu -->
+        <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
+          <div class="px-4 py-3">
+            <span class="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
+            <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+          </div>
+          <ul class="py-2" aria-labelledby="user-menu-button">
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="text-white w-[115px] font-medium h-[43px] bg-[#1D2130]  focus:ring-blue-300  rounded-lg text-sm px-[32px] py-[12px] me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Donate</button>
+    </div>
+    <div class="items-center justify-between hidden w-full h-[51px] md:flex md:w-auto md:order-1" id="navbar-user">
+      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="../index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">What We Do</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Media</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+    </header>
+    <main class="w-full h-auto">
+    
+
+        <section class="w-[1280px] ml-[110px] flex mt-[96px] mr-[110px]">
+            <div class="w-[60%]">
+                <div class="flex align-items-center mb-[32px] ">
+                    <span class="h-[2px] w-[72px] bg-[#1D2130] mt-3 mr-[24px]"></span>
+                    <p class="font-bold uppercase">Know about us</p>
+                </div>
+                <div class="ml-[97px]">
+                    <h2 class="font-bold text-[48px] w-[607px] mb-[32px]">We are a nonprofit team working worldwide</h2>
+                </div>
+            </div>
+            <div class="w-[40%]">
+                <div class="w-[496px] text-[20px] font-bold">
+                    Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+                </div>
+                <div class="w-[496px] opacity-70 text-[16px] mt-[16px]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim elementum tristique.
+                </div>
+            </div>
+            
+        </section>
+        <section class="w-[1280px] h-[448px] relative mt-[96px] m-auto">
+            <div class="w-[1280px] h-[448px] relative">
+                <img class="rounded-[12px] w-[1280px] h-[448px] relative object-cover z-40" src="../asset/images/our-team.png" alt="">
+                <img class="absolute top-[50%] right-[50%] transform translate-y-[-50px] translate-x-[40px]" src="../asset/images/Group 1.png" alt="">
+            </div>
+        </section>
+        <section class="w-[1088px] h-[257px] m-auto text-[rgba(29, 33, 48, 1)] mt-[96px] flex gap-24 z-50">
+            <div>
+                <p class="font-bold uppercase">our mission</p>
+                <h3 class="text-[28px] font-bold w-[496px] mt-[16px]">We make the world we save our own environment</h3>
+                <p class="text-[rgba(29, 33, 48, 1)] opacity-70 font-normal w-[496px] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            </div>
+            <div>
+                <p class="font-bold uppercase">our Vision</p>
+                <h3 class="text-[28px] font-bold w-[496px] mt-[16px]">Plant more trees to make world air pollution free</h3>
+                <p class="text-[rgba(29, 33, 48, 1)] opacity-70 font-normal w-[496px] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere..</p>
+            </div>
+            
+        </section>
+
+        <section class="w-[1280px] mt-[96px]  ml-[110px] mb-[64px] bg-[rgba(239, 247, 242, 1)]">
+            <div class="relative flex align-items-center">
+            <span class="uppercase mr-[24px] font-medium">our Supporters</span>
+           
+            </div>
+            <div class="flex mt-[32px]">
+                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="../asset/images/Logo.png" alt="logo">
+                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="../asset/images/Logo1.png" alt="logo">
+                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="../asset/images/Logo2.png" alt="logo">
+                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="../asset/images/Logo3.png" alt="logo">
+                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="../asset/images/Logo4.png" alt="logo">
+                <img src="./asset/images/Logo5.png" alt="logo">
+            </div>
+        </section>
+        <section class="w-[1500px] h-[867px] bg-test -z-40 absolute bottom-[0px] top-[695px]">
+        </section>
+            <section class="w-[1280px] m-auto flex  relative top-[96px] ">
+                <div class="w-[65%]">
+                    <div class="flex align-items-center mb-[32px] ">
+                        <span class="h-[2px] w-[72px] bg-[#1D2130] mt-3 mr-[24px]"></span>
+                        <p class="font-bold uppercase">What we do</p>
+                    </div>
+                    <div class="ml-[97px]">
+                        <h2 class="font-bold text-[48px] w-[607px] mb-[32px]">We care for earth, care for the coming birth</h2>
+                        <div class="mb-[48px]">
+                            <p class="font-normal w-[608px] text-[#525560]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                        </div>
+                        <div class="h-[400px] border-l-[1px] border-[#E5E5E5] pl-[24px] ">
+                            <div class="mt-0">
+                                <div class="flex align-items-center mt-2">
+                                    <img class="mr-6" src="./asset/images/card-logo.svg" alt="">
+                                    <p class="text-2xl font-bold">Build Healthy Cities</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#525560] font-normal ml-[52px] w-[384px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                </div>
+                            </div>
+                            <div class="mt-6">
+                                <div class="flex align-items-center mt-2">
+                                    <img class="mr-6" src="./asset/images/tree-planation.svg" alt="">
+                                    <p class="text-2xl font-bold">Tree Plantation</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#525560] font-normal ml-[52px] w-[384px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                </div>
+                            </div>
+                            <div class="mt-6">
+                                <div class="flex align-items-center mt-2">
+                                    <img class="mr-6" src="./asset/images/protect-land-water.svg" alt="">
+                                    <p class="text-2xl font-bold">Protect Land and Water</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#525560] font-normal ml-[52px] w-[384px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                </div>
+                            </div>
+                            <div class="mt-6">
+                                <div class="flex align-items-center mt-2">
+                                    <img class="mr-6" src="./asset/images/animal-safety.svg" alt="">
+                                    <p class="text-2xl font-bold">Animal Safety</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#525560] font-normal ml-[52px] w-[384px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[35%] mt-[73px] ">
+                    <img class="h-[658px] object-cover object-[calc(10%-100px)_center] rounded-[12px]" src="./asset/images/kindly.png" alt="video">
+                </div>
+            </section>  
+        
+
+        <section class="w-[1280px] m-auto flex  relative top-[96px] pb-[96px]">
+            <div class="w-[100%]">
+                <div class="flex align-items-center mb-[32px] ">
+                    <span class="h-[2px] w-[72px] bg-[#1D2130] mt-3 mr-[24px]"></span>
+                    <p class="font-bold uppercase">Projects we have done</p>
+                </div>
+                <div class="ml-[97px]">
+                    <h2 class="font-bold text-[48px] w-[607px] mb-[32px]">We are Creating sustainable society, for everyone and forever.</h2>
+                </div>
+                <div class="w-7xl h-[421px] m-auto mt-[65.64px]  flex gap-6">
+                    <div class="relative w-[411px] h-[421px]">
+                        <img class="w-[411px] absolute h-[421px] rounded-[12px] object-fit-cover"  src="./asset/images/natural.png" alt="">
+                        <div class="w-[411px] h-[421px] bg-[#0B0706] absolute opacity-50"></div>
+                        <div class="absolute">
+                            <h3 class="text-[#FFFFFF] font-bold text-[28px] w-[315px] mt-[80px] mx-[48px]">Mission 40K: Tree plantation</h3>
+                            <p class="font-normal text-[#ffffff] w-[315px] mt-[16px] mx-[48px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                            <button type="button" class="mt-[64px] py-[16px] w-[132px] h-[51px] px-[32px] ml-[48px] me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-sm border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See more</button>
+                        </div>
+                    </div>
+                    <div class="relative w-[411px] h-[421px]">
+                        <img class="w-[411px] absolute h-[421px] rounded-[12px] object-fit-cover"  src="./asset/images/city.png" alt="">
+                        <div class="w-[411px] h-[421px] bg-[#0B0706] absolute opacity-50"></div>
+                        <div class="absolute">
+                            <h3 class="text-[#FFFFFF] font-bold text-[28px] w-[315px] mt-[80px] mx-[48px]">Weekly cleanliness program in city</h3>
+                            <p class="font-normal text-[#ffffff] w-[315px] mt-[16px] mx-[48px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                            <button type="button" class="mt-[64px] py-[16px] w-[132px] h-[51px] px-[32px] ml-[48px] me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-sm border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See more</button>
+                        </div>
+                    </div>
+                    <div class="relative w-[411px] h-[421px]">
+                        <img class="w-[411px] absolute h-[421px] rounded-[12px] object-fit-cover"  src="./asset/images/natural-mountain.png" alt="">
+                        <div class="w-[411px] h-[421px] bg-[#0B0706] absolute opacity-50"></div>
+                        <div class="absolute">
+                            <h3 class="text-[#FFFFFF] font-bold text-[28px] w-[315px] mt-[80px] mx-[48px]">Wildlife safety program 2021</h3>
+                            <p class="font-normal text-[#ffffff] w-[315px] mt-[16px] mx-[48px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                            <button type="button" class="mt-[64px] py-[16px] w-[132px] h-[51px] px-[32px] ml-[48px] me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-sm border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See more</button>
+                        </div>
+                    </div>
+
+                </div>  
+            </div>
+        </section >  
+        <section class="w-[1500px] h-[567px] bg-[#0B0706] flex mt-[96px] ">
+                
+                    <div class="w-[611px] mt-[142px] ml-[110px]">
+                        <h2 class="w-[611px] font-bold text-[48px] text-[#FFFFFF]">How we spend your donations and where it goes</h2>
+                        <p class="w-[606px] font-normal text-[16px] text-[#FFFFFF] opacity-60 mt-[16px]">We understand that when you make a  donation, you want to know exactly where your money is going and we pledge to be transparent.</p>
+                        <div class="mt-[32px]">
+                            <div class="flex w-[611px] flex-wrap">
+                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#BEF3C0]"></div>
+                                <span> 40% planting trees</span>
+                                </div>
+                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#AC94F1]"></div>
+                                <span> 35% cleanliness program</span>
+                                </div>
+                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#FFF0CA]"></div>
+                                <span> 10% helping people</span>
+                                </div>
+                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#F9CF64]"></div>
+                                <span> 10% animal safety</span>
+                                </div>
+                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#F38FBF]"></div>
+                                <span> 5% feeding the poor</span>
+                                </div>
+                                
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="w-[40%] ">
+                        <img class="w-[375px] h-[375px] mt-[96px] ml-[294px]" src="./asset/images/Chart.svg" alt="">
+                    </div>
+                
+        </section>
+        <section class="w-7xl h-[384px] m-auto mt-[96px] relative">
+            <div class="w-7xl h-[384px] relative">
+                <div class="absolute rounded-[12px] bg-[#0B0706] opacity-50 w-7xl h-[384px] z-10"></div>
+                <img class="object-cover w-7xl h-[384px] absolute rounded-[12px] object-center " src="./asset/images/natural-2-section.png" alt="natural">
+                <div class="absolute mt-[93px] ml-[325px] z-20">
+                    <div class="font-bold text-[48px] text-[#FFFFFF] w-[631px]">
+                        You can contribute to make the environment greener!
+                    </div>
+                    <div class="w-[600px]">
+                        <button type="button" class="focus:outline-none w-[200px] h-[51px] text-white bg-[#70C174] hover:bg-[#70C174] focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-[32] py-[16px] me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 mr-[32px]">Primary button text</button>
+                        <button type="button" class="w-[115px] h-[51px] py-[16px] px-[32pdx] me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Donate</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-[1280px] h-[432px] mt-[96px] ml-[110px]">
+            <p class="text-[#1D2130] text-[40px] font-medium">Read Our News</p>
+            <div class="mt-[48px] w-7xl h-[328px] flex gap-6">
+                <div class="w-[302px] h-[328px]">
+                    <img class="w-[302px] h-[192px] rounded-[8px] object-cover" src="./asset/images/read-our-news.png" alt="">
+                    <div class="mt-[16px]">
+                       <p class="font-medium text-[20px]"> Don’t destroy greenery and don’t spoil scenery</p>
+                       <p class="font-normal text-[16px] text-[#525560] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
+                    </div>
+                </div>
+                <div class="w-[302px] h-[328px]">
+                    <img class="w-[302px] h-[192px] rounded-[8px] object-cover" src="./asset/images/read-our-news1.png" alt="">
+                    <div class="mt-[16px]">
+                       <p class="font-medium text-[20px]"> Is climate change happening faster than expected?</p>
+                       <p class="font-normal text-[16px] text-[#525560] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
+                    </div>
+                </div>
+                <div class="w-[302px] h-[328px]">
+                    <img class="w-[302px] h-[192px] rounded-[8px] object-cover" src="./asset/images/read-our-news2.png" alt="">
+                    <div class="mt-[16px]">
+                       <p class="font-medium text-[20px]"> Top 10 facts about wind farms you didn't know</p>
+                       <p class="font-normal text-[16px] text-[#525560] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
+                    </div>
+                </div>
+                <div class="w-[302px] h-[328px]">
+                    <img class="w-[302px] h-[192px] rounded-[8px] object-cover" src="./asset/images/read-our-news3.png" alt="">
+                    <div class="mt-[16px]">
+                       <p class="font-medium text-[20px]">Our goal is to make water available for everyone</p>
+                       <p class="font-normal text-[16px] text-[#525560] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="w-[1280px] h-[432px] mt-[96px] ml-[110px]">
+            <p class="text-[#1D2130] text-[40px] font-medium mb-[48px]">Our Events</p>
+            <div class="w-[1280px] h-[191px] relative flex gap-6">
+                <div class="w-[628px] h-[191px] bg-[#BEF3C0] py-[32px] px-[40px] rounded-lg">
+                    <div class="w-[540px] h-[119px] absolute flex">
+                        <div class="flex flex-col">
+                            <span class="font-medium text-[48px] text-[#1D2130]">23</span>
+                            <span class="font-medium text-[16px] text-[#1D2130]">SEP</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="relative ml-[24px] mt-[16px] mr-[24px]">
+                                <div class="font-medium text-[16px] text-[#1D2130] uppercase">Next Events <span class="w-[44px] h-[2px] bg-[#1D2130] absolute ml-[23px] mt-[12px]"></span></div>
+                                <div class="font-bold text-[28px] w-[381px] text-[#1D2130]">Say no to plastic usage and save the planet</div>
+                            </div>
+                            <div class="mt-[24px]">
+                                <button class="w-[56px] rounded-full h-[56px] bg-[#FFFFFF]"><i class="fa-solid text-[17px] fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[628px] h-[191px] bg-[#BEF3C0] py-[32px] px-[40px] rounded-lg">
+                    <div class="w-[540px] h-[119px] absolute flex">
+                        <div class="flex flex-col">
+                            <span class="font-medium text-[48px] text-[#1D2130]">25</span>
+                            <span class="font-medium text-[16px] text-[#1D2130]">SEP</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="relative ml-[24px] mt-[16px] mr-[24px]">
+                                <div class="font-medium text-[16px] text-[#1D2130] uppercase">Next Events <span class="w-[44px] h-[2px] bg-[#1D2130] absolute ml-[23px] mt-[12px]"></span></div>
+                                <div class="font-bold text-[28px] w-[381px] text-[#1D2130]">Weekly cleaning program</div>
+                            </div>
+                            <div class="mt-[24px]">
+                                <button class="w-[56px] rounded-full h-[56px] bg-[#FFFFFF]"><i class="fa-solid text-[17px] fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        
+
+<footer class="bg-[#0B0706] dark:bg-gray-900 pb-[74px] pt-[74px]">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="https://flowbite.com/" class="flex items-center">
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-white">{Finsweet</span>
+              </a>
+          </div>
+          <div class="flex w-[366px] gap-[88px]">
+              <div>
+                  <h2 class="mb-6 text-[16px] font-semibold text-white  dark:text-white">Our team</h2>
+                  <ul class="text-[#FFFFFF] opacity-75 dark:text-gray-400 font-normal text-[14px]">
+                      <li class="mb-4">
+                          <a href="https://flowbite.com/" class="hover:underline">About us</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="https://tailwindcss.com/" class="hover:underline">Team</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="https://tailwindcss.com/" class="hover:underline">What we do</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="https://tailwindcss.com/" class="hover:underline">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-[16px] font-semibold text-white  dark:text-white">More</h2>
+                  <ul class="text-[#FFFFFF] opacity-75 dark:text-gray-400 font-normal text-[14px]">
+                      <li class="mb-4">
+                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Projects</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Events</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Donate</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Blog</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-[16px] font-semibold text-white  dark:text-white">Connect</h2>
+                  <ul class="text-[#FFFFFF] opacity-75 dark:text-gray-400 font-normal text-[14px]">
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Facebook</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Instagram</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Twitter</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Linkdin</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <!-- Subscribe to get latest -->
+           <div class="w-[544px] h-[208px]">
+                <div class="w-[440px] h-[112px] font-bold text-[40px] text-white">Subscribe to get latest updates</div>
+                <div class="w-[544px] h-[64px] mt-[32px] relative">
+                    <input class="absolute text-[#EBF0F94D] outline-0 w-[544px] h-[64px] border border-[#EBF0F94D] focus:border-[#EBF0F94D] pl-6 rounded-[4px] " type="text" placeholder="Your email">
+                    <button type="button" class="absolute right-[0px] w-[136px] h-[64px] py-[22.5px] px-[32px]  mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-[4px] border  hover:text-blue-700  dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Subscribe</button>
+                </div>
+           </div>
+      </div>
+      
+    </div>
+</footer>
+</body>
+</html>

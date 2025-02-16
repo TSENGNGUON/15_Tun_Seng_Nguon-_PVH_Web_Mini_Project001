@@ -1,4 +1,4 @@
 @import "tailwindcss";
-
-
-
+@theme {
+    --color-test: rgba(239, 247, 242, 1);
+}
