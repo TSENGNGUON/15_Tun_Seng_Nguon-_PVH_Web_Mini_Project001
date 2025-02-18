@@ -1,4 +1,16 @@
 @import "tailwindcss";
+
+
+
 @theme {
     --color-test: rgba(239, 247, 242, 1);
+    --color-text-grey: rgba(29, 33, 48, 1);
+    --color-black-unique: #0B0706;
+    --color-while-unique: #FFFFFF;
+    --color-text-color: #525560;
+    --color-bg-color-shadow: #EFF7F2;
+    --text-small-size: 12px;
+    --text-small-tweenty-eight: 28px;
+    --text-name-size: 20px;
+    --color-role:#1D2130;
 }
