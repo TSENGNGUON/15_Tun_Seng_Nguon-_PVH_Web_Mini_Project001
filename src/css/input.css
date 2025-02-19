@@ -7,6 +7,7 @@
     --color-text-grey: rgba(29, 33, 48, 1);
     --color-black-unique: #0B0706;
     --color-line:#E5E5E5;
+    --color-bg-green: #70C174;
     --color-while-unique: #FFFFFF;
     --color-text-color: #525560;
     --color-bg-color-shadow: #EFF7F2;
@@ -16,4 +17,6 @@
     --text-button-width: 24px;
     --text-small: 18px;
     --color-role:#1D2130;
+    --color-menu-color:#0B0706;
+    --color-menu-sub-color:#525560;
 }
