@@ -14,7 +14,7 @@
 <body>
     <header class="w-full ">
         <nav class=" mx-auto border-gray-200 dark:bg-gray-900">
-            <div class="w-[80%] py-[8px] bg-amber-800 flex flex-wrap items-center justify-between mx-auto ">
+            <div class="w-[80%] py-[8px]  flex flex-wrap items-center justify-between mx-auto ">
             <a href="#">
                 <span class="text-2xl font-semibold whitespace-nowrap dark:text-white">{Finsweet</span>
             </a>
@@ -22,10 +22,10 @@
             <div class="items-center  justify-between flex gap-5 w-full h-[51px] md:flex md:w-auto md:order-1" id="navbar-user">
               <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
-                  <a href="../index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+                  <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
                 </li>
                 <li>
-                  <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
+                  <a href="./pages/about-us.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
                 </li>
                 <li>
                   <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">What We Do</a>
@@ -43,56 +43,42 @@
         </nav>
     </header>
     <main class="w-full h-auto">
-
-        <!-- <section class="w-full h-[735px] relativ">
-            <img class="w-full h-full object-cover" src="./asset/images/hero-image.png" alt="image description">
-            <p class="absolute w-[700px] h-[
-            330px] text-[64px] top-[128px] left-[110px] text-white font-bold text-2xl">
-                Save the environment today for a better tomorrow
-            </p>
-            <div class="mt-[48px] absolute  top-[407px] left-[110px]">
-                <button type="button" class="py-[16px] px-[32px] me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 text-[
-                16px] font-medium">What we do</button>
-                <button type="button" class="text-white py-[16px] px-[32px] hover:text-white  focus:outline-none focus:ring-gray-300  rounded-lg text-sm  text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 text-[16px] font-medium"><i class="fa-solid fa-circle-play mr-2"></i>Play Video</button>
-            </div>
-            <div class=" absolute left-[110px]  top-[662px] flex align-items-center w-[90%]">
-                <pre class="font-medium text-small text-white">23,800 trees planted</pre>
-                <div class="h-[1px] w-[65%] bg-amber-50 mt-[12px] mx-[24px]"></div>
-                <pre class="font-medium text-small text-white ">5840 donations collected</pre>
-
-            </div>
-        </section> -->
         <section class="w-full h-screen bg-[url('/src/image.jpg')] bg-cover bg-center">
-            <div class="w-[80%] m-auto">
-                <p class="text-6xl font-bold text-white">Save the environment today for a better tomorrow</p>
-                <div>
-                    bu
+            <div class="w-[80%] m-auto pt-32">
+                <p class="text-6xl font-bold text-white w-[700px] mb-12">Save the environment today for a better tomorrow</p>
+                <div class="flex items-center gap-6">
+                   <button class="py-4 px-8 bg-white font-medium rounded-[4px]">What we do</button>
+                   <button class="py-4 px-8 gap-2 text-white font-medium rounded-[4px] flex items-center">
+                    <i class="fa-solid fa-circle-play text-button-width"></i> Play Video</button>
+    
                 </div>
             </div>
-            <div class="w-[80%]"></div>
+
+            <div class="w-[80%] mx-auto justify-between flex items-center mt-52">
+                <div class="w-auto text-while-unique">23,800 trees planted</div>
+                <div class="w-[70%] h-0.5 bg-line"></div>
+                <div class="w-auto text-while-unique">5840 donations collected</div>
+            </div>
         </section>
         
            
         <section class="w-full m-auto flex mt-24">
-        <div class="w-[85%] mx-auto flex bg-orange-600">
-            <div class="w-[55%]">
+        <div class="w-[80%] mx-auto flex justify-between ">
+            <div class="w-[60%]">
                 <div class="flex align-items-center mb-[32px] ">
                     <span class="h-[2px] w-[72px] bg-[#1D2130] mt-3 mr-[24px]"></span>
                     <p class="font-bold uppercase">Know About us</p>
                 </div>
 
-                <div class="w-full pl-24">
+                <div class="w-full pl-24 ">
                     <h2 class="font-bold text-[48px] w-[607px] mb-[32px]">We help nature smile and survive everywhere</h2>
                     <div class="mb-[48px]">
                         <p class="font-normal w-[608px] text-[#525560]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.<br><br> <br>‍Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
                     </div>
                     <button type="button" class="focus:outline-none text-white font-medium bg-[#70C174] hover:bg-[#70C174] focus:ring-4 focus:ring-green-300  rounded-sm text-sm px-[32px] py-[16px]me-2 mb-2​ w-[146px] h-[51px] dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Learn More</button>
                 </div>
-                <div>
-
-                </div>
             </div>
-            <div class="w-[35%]">
+            <div class="w-[40%]">
                 <img class="w-full object-cover rounded-[12px]" src="./asset/images/Video.png" alt="video">
             </div>
             <!-- <div class="w-[80%] bg-red-600">
@@ -114,22 +100,29 @@
         </div>
         </section>
 
-        <section class="w-[1280px] mt-[96px]  ml-[110px] mb-[64px]">
-            <div class="relative flex align-items-center">
-            <span class="uppercase mr-[24px] font-medium">our Supporters</span>
-            <span class="h-[1px] w-[1122px] bg-[#E5E5E5] mt-[13px]"></span>
+        <section class="w-full mb-16">
+            <div class="w-[80%] mx-auto">
+            <div class="w-full flex mb-8 mt-16">
+                    <span class="uppercase font-medium w-[162px]">
+                        our Supporters
+                    </span>
+                    <span class="h-[1px] w-full bg-[#E5E5E5] mt-[13px]">
+                    </span>
             </div>
-            <div class="flex mt-[32px]">
-                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="./asset/images/Logo.png" alt="logo">
-                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="./asset/images/Logo1.png" alt="logo">
-                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="./asset/images/Logo2.png" alt="logo">
-                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="./asset/images/Logo3.png" alt="logo">
-                <img class="mr-[177px] w-[123.5px] h-[24.56px]" src="./asset/images/Logo4.png" alt="logo">
-                <img src="./asset/images/Logo5.png" alt="logo">
+            </div class="w-[80%] flex">
+                <div class="w-[80%] mx-auto justify-between flex">
+                <img  src="./asset/images/Logo.png" alt="logo">
+                <img  src="./asset/images/Logo1.png" alt="logo">
+                <img  src="./asset/images/Logo2.png" alt="logo">
+                <img  src="./asset/images/Logo3.png" alt="logo">
+                <img  src="./asset/images/Logo4.png" alt="logo">
+                <img  src="./asset/images/Logo5.png" alt="logo">   
+                </div>
             </div>
         </section>
-        <section class="w-[1500px] h-[901px] bg-[#EFF7F2]">
-            <section class="w-[1280px] m-auto flex  relative top-[96px]">
+
+        <section class="w-full h-[901px] bg-[#EFF7F2]">
+            <section class="w-[80%] m-auto flex  relative top-[96px]">
                 <div class="w-[65%]">
                     <div class="flex align-items-center mb-[32px] ">
                         <span class="h-[2px] w-[72px] bg-[#1D2130] mt-3 mr-[24px]"></span>
@@ -186,8 +179,8 @@
             </section>  
         </section>
 
-        <section class="w-[1280px] m-auto flex  relative top-[96px] pb-[96px]">
-            <div class="w-[100%]">
+        <section class="w-full m-auto flex  relative top-[96px] pb-[96px]">
+            <div class="w-[80%] mx-auto">
                 <div class="flex align-items-center mb-[32px] ">
                     <span class="h-[2px] w-[72px] bg-[#1D2130] mt-3 mr-[24px]"></span>
                     <p class="font-bold uppercase">Projects we have done</p>
@@ -195,28 +188,28 @@
                 <div class="ml-[97px]">
                     <h2 class="font-bold text-[48px] w-[607px] mb-[32px]">We are Creating sustainable society, for everyone and forever.</h2>
                 </div>
-                <div class="w-7xl h-[421px] m-auto mt-[65.64px]  flex gap-6">
-                    <div class="relative w-[411px] h-[421px]">
-                        <img class="w-[411px] absolute h-[421px] rounded-[12px] object-fit-cover"  src="./asset/images/natural.png" alt="">
-                        <div class="w-[411px] h-[421px] bg-[#0B0706] absolute opacity-50"></div>
+                <div class="w-full h-[423px] m-auto mt-[65.64px] gap-6 flex justify-between">
+                    <div class="relative w-[33.33%] ">
+                        <img class="w-full absolute h-[421px] rounded-[12px] object-fit-cover"  src="./asset/images/natural.png" alt="">
+                        <div class="w-full h-[421px] bg-[#0B0706] absolute opacity-50 rounded-[12px]"></div>
                         <div class="absolute">
                             <h3 class="text-[#FFFFFF] font-bold text-[28px] w-[315px] mt-[80px] mx-[48px]">Mission 40K: Tree plantation</h3>
                             <p class="font-normal text-[#ffffff] w-[315px] mt-[16px] mx-[48px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                             <button type="button" class="mt-[64px] py-[16px] w-[132px] h-[51px] px-[32px] ml-[48px] me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-sm border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See more</button>
                         </div>
                     </div>
-                    <div class="relative w-[411px] h-[421px]">
-                        <img class="w-[411px] absolute h-[421px] rounded-[12px] object-fit-cover"  src="./asset/images/city.png" alt="">
-                        <div class="w-[411px] h-[421px] bg-[#0B0706] absolute opacity-50"></div>
+                    <div class="relative w-[33.33%] ">
+                        <img class="w-full absolute h-[421px] rounded-[12px] object-fit-cover"  src="./asset/images/city.png" alt="">
+                        <div class="w-full h-[421px] bg-[#0B0706] absolute opacity-50 rounded-[12px]"></div>
                         <div class="absolute">
                             <h3 class="text-[#FFFFFF] font-bold text-[28px] w-[315px] mt-[80px] mx-[48px]">Weekly cleanliness program in city</h3>
                             <p class="font-normal text-[#ffffff] w-[315px] mt-[16px] mx-[48px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
                             <button type="button" class="mt-[64px] py-[16px] w-[132px] h-[51px] px-[32px] ml-[48px] me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-sm border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">See more</button>
                         </div>
                     </div>
-                    <div class="relative w-[411px] h-[421px]">
-                        <img class="w-[411px] absolute h-[421px] rounded-[12px] object-fit-cover"  src="./asset/images/natural-mountain.png" alt="">
-                        <div class="w-[411px] h-[421px] bg-[#0B0706] absolute opacity-50"></div>
+                    <div class="relative w-[33.33%] ">
+                        <img class="w-full absolute h-[421px] rounded-[12px] object-fit-cover"  src="./asset/images/natural-mountain.png" alt="">
+                        <div class="w-full h-[421px] bg-[#0B0706] absolute opacity-50 rounded-[12px]"></div>
                         <div class="absolute">
                             <h3 class="text-[#FFFFFF] font-bold text-[28px] w-[315px] mt-[80px] mx-[48px]">Wildlife safety program 2021</h3>
                             <p class="font-normal text-[#ffffff] w-[315px] mt-[16px] mx-[48px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
@@ -226,98 +219,107 @@
 
                 </div>  
             </div>
-        </section >  
-        <section class="w-[1500px] h-[567px] bg-[#0B0706] flex mt-[96px] ">
+        </section > 
+
+        <section class="w-full bg-[#0B0706] flex mt-[96px] ">
                 
-                    <div class="w-[611px] mt-[142px] ml-[110px]">
-                        <h2 class="w-[611px] font-bold text-[48px] text-[#FFFFFF]">How we spend your donations and where it goes</h2>
-                        <p class="w-[606px] font-normal text-[16px] text-[#FFFFFF] opacity-60 mt-[16px]">We understand that when you make a  donation, you want to know exactly where your money is going and we pledge to be transparent.</p>
-                        <div class="mt-[32px]">
-                            <div class="flex w-[611px] flex-wrap">
-                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
-                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#BEF3C0]"></div>
-                                <span> 40% planting trees</span>
+                    <div class="w-[80%] mx-auto py-36 flex justify-between items-center">
+                        <div class="w-[80%]">
+                            <h2 class="w-[611px] font-bold text-[48px] text-[#FFFFFF]">How we spend your donations and where it goes</h2>
+                            <p class="w-[606px] font-normal text-[16px] text-[#FFFFFF] opacity-60 mt-[16px]">We understand that when you make a  donation, you want to know exactly where your money is going and we pledge to be transparent.</p>
+                            <div class="mt-[32px]">
+                                <div class="flex w-[611px] flex-wrap">
+                                    <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                    <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#BEF3C0]"></div>
+                                    <span> 40% planting trees</span>
+                                    </div>
+                                    <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                    <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#AC94F1]"></div>
+                                    <span> 35% cleanliness program</span>
+                                    </div>
+                                    <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                    <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#FFF0CA]"></div>
+                                    <span> 10% helping people</span>
+                                    </div>
+                                    <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                    <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#F9CF64]"></div>
+                                    <span> 10% animal safety</span>
+                                    </div>
+                                    <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
+                                    <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#F38FBF]"></div>
+                                    <span> 5% feeding the poor</span>
+                                    </div>
+                                    
                                 </div>
-                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
-                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#AC94F1]"></div>
-                                <span> 35% cleanliness program</span>
-                                </div>
-                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
-                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#FFF0CA]"></div>
-                                <span> 10% helping people</span>
-                                </div>
-                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
-                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#F9CF64]"></div>
-                                <span> 10% animal safety</span>
-                                </div>
-                                <div class="flex mr-6 text-[#FFFFFF] text-[16px] items-center">
-                                <div class="w-[16px] mr-[8px] h-[16px] rounded-[4px] bg-[#F38FBF]"></div>
-                                <span> 5% feeding the poor</span>
-                                </div>
-                                
+                               
                             </div>
-                           
+                        </div>
+                        <div class="w-[40%]">
+                            <img class="w-full" src="./asset/images/Chart.svg" alt="">
                         </div>
                     </div>
-                    <div class="w-[40%] ">
-                        <img class="w-[375px] h-[375px] mt-[96px] ml-[294px]" src="./asset/images/Chart.svg" alt="">
-                    </div>
                 
         </section>
-        <section class="w-7xl h-[384px] m-auto mt-[96px] relative">
-            <div class="w-7xl h-[384px] relative">
-                <div class="absolute rounded-[12px] bg-[#0B0706] opacity-50 w-7xl h-[384px] z-10"></div>
-                <img class="object-cover w-7xl h-[384px] absolute rounded-[12px] object-center " src="./asset/images/natural-2-section.png" alt="natural">
-                <div class="absolute mt-[93px] ml-[325px] z-20">
-                    <div class="font-bold text-[48px] text-[#FFFFFF] w-[631px]">
-                        You can contribute to make the environment greener!
+
+        <section class="w-full mt-[96px]">
+            <div class="w-[80%] mx-auto h-[384px] rounded-[12px] bg-[url(https://s3-alpha-sig.figma.com/img/cf16/2170/df9f522426ad4b12ca328069f04c591c?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Cp6-rAu9OPW1vwR201dzBiBfI7Yiuzvp0dPXiHMxea7ovrjPV3HcFEqCjaTjFqU4syFBsx595j7uKnCz26EpZFe-PsgVqApOC0zPdPGpmNVHiyMptYZaB1JvhK7kc2vdlRj3wiPZWdGiFo5bWwzxgTv8li-ijhHqe0y4HzBPMyor0H1ODezNH6Ka7sa8ZzjXTo3hk3tvgZZdwwDmzFHGVdXGZ49LISQST~grKGdZVydnNKhKY3D8yuhUQP2eOFAt4dSY4nrDq3-W7tiZNDwCniGgnowkLh20xVZVvlri7UTXznPlvGZZ1mLmAIrve7~8XSHr7GaLhmD-YigwmPRgUw__)] bg-cover bg-center  bg-no-repeat flex justify-center items-center">
+                <div class="absolute  rounded-[12px] bg-[#0B0706] opacity-50 w-[80%] h-[384px] z-10"></div>
+                    <div class="z-40 justify-center flex flex-col items-center gap-8">
+                        <div class="font-bold text-[48px] text-[#FFFFFF] w-[631px]">
+                            You can contribute to make the environment greener!
+                        </div>
+                        <div>
+                            <button type="button" class="focus:outline-none w-[200px] h-[51px] text-white bg-[#70C174] hover:bg-[#70C174] focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-[32] py-[16px] me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 mr-[32px]">Join as a volunteer</button>
+                            <button type="button" class="w-[115px] h-[51px] py-[16px] px-[32pdx] me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Donate</button>
+                        </div>
                     </div>
-                    <div class="w-[600px]">
-                        <button type="button" class="focus:outline-none w-[200px] h-[51px] text-white bg-[#70C174] hover:bg-[#70C174] focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-[32] py-[16px] me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 mr-[32px]">Primary button text</button>
-                        <button type="button" class="w-[115px] h-[51px] py-[16px] px-[32pdx] me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Donate</button>
-                    </div>
-                </div>
+
+            
             </div>
         </section>
-        <section class="w-[1280px] h-[432px] mt-[96px] ml-[110px]">
-            <p class="text-[#1D2130] text-[40px] font-medium">Read Our News</p>
-            <div class="mt-[48px] w-7xl h-[328px] flex gap-6">
-                <div class="w-[302px] h-[328px]">
+
+        <section class="w-full mt-[96px]">
+            <div class="w-[80%] mx-auto">
+                <p class="text-[#1D2130] text-[40px] font-medium">Read Our News</p>
+                <div class="mt-[48px] w-full h-[328px] flex gap-6">
+                <div class="w-full">
                     <img class="w-[302px] h-[192px] rounded-[8px] object-cover" src="./asset/images/read-our-news.png" alt="">
                     <div class="mt-[16px]">
                        <p class="font-medium text-[20px]"> Don’t destroy greenery and don’t spoil scenery</p>
                        <p class="font-normal text-[16px] text-[#525560] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
                     </div>
                 </div>
-                <div class="w-[302px] h-[328px]">
+                <div class="w-full">
                     <img class="w-[302px] h-[192px] rounded-[8px] object-cover" src="./asset/images/read-our-news1.png" alt="">
                     <div class="mt-[16px]">
                        <p class="font-medium text-[20px]"> Is climate change happening faster than expected?</p>
                        <p class="font-normal text-[16px] text-[#525560] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
                     </div>
                 </div>
-                <div class="w-[302px] h-[328px]">
+                <div class="w-full">
                     <img class="w-[302px] h-[192px] rounded-[8px] object-cover" src="./asset/images/read-our-news2.png" alt="">
                     <div class="mt-[16px]">
                        <p class="font-medium text-[20px]"> Top 10 facts about wind farms you didn't know</p>
                        <p class="font-normal text-[16px] text-[#525560] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
                     </div>
                 </div>
-                <div class="w-[302px] h-[328px]">
+                <div class="w-full">
                     <img class="w-[302px] h-[192px] rounded-[8px] object-cover" src="./asset/images/read-our-news3.png" alt="">
                     <div class="mt-[16px]">
                        <p class="font-medium text-[20px]">Our goal is to make water available for everyone</p>
                        <p class="font-normal text-[16px] text-[#525560] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim</p>
                     </div>
                 </div>
-                
+                </div>
             </div>
         </section>
-        <section class="w-[1280px] h-[432px] mt-[96px] ml-[110px]">
-            <p class="text-[#1D2130] text-[40px] font-medium mb-[48px]">Our Events</p>
-            <div class="w-[1280px] h-[191px] relative flex gap-6">
-                <div class="w-[628px] h-[191px] bg-[#BEF3C0] py-[32px] px-[40px] rounded-lg">
-                    <div class="w-[540px] h-[119px] absolute flex">
+        
+        <section class="w-full mt-[96px]">
+            <div class="mx-auto w-[80%]">
+                <p class="text-[#1D2130] text-[40px] font-medium mb-[48px]">Our Events</p>
+            <div class="w-full h-[191px] relative flex gap-6">
+                <div class="w-full bg-[#BEF3C0] py-[32px] px-[40px] rounded-lg">
+                    <div class="absolute flex">
                         <div class="flex flex-col">
                             <span class="font-medium text-[48px] text-[#1D2130]">23</span>
                             <span class="font-medium text-[16px] text-[#1D2130]">SEP</span>
@@ -333,8 +335,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-[628px] h-[191px] bg-[#BEF3C0] py-[32px] px-[40px] rounded-lg">
-                    <div class="w-[540px] h-[119px] absolute flex">
+                <div class="w-full  bg-[#BEF3C0] py-[32px] px-[40px] rounded-lg">
+                    <div class="absolute flex">
                         <div class="flex flex-col">
                             <span class="font-medium text-[48px] text-[#1D2130]">25</span>
                             <span class="font-medium text-[16px] text-[#1D2130]">SEP</span>
@@ -351,11 +353,12 @@
                     </div>
                 </div>
             </div>
+            </div>
         </section>
     </main>
         
 
-<footer class="bg-[#0B0706] dark:bg-gray-900 pb-[74px] pt-[74px]">
+<footer class="bg-[#0B0706] w-full dark:bg-gray-900 pb-[74px] pt-[74px] mt-24">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
