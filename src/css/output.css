@@ -1064,6 +1064,9 @@
   .bg-\[\#FFFFFF\] {
     background-color: #FFFFFF;
   }
+  .bg-amber-700 {
+    background-color: var(--color-amber-700);
+  }
   .bg-bg-color-shadow {
     background-color: var(--color-bg-color-shadow);
   }
